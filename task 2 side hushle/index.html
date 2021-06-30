@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
+   <link rel="stylesheet" href="task-style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,47 +14,89 @@
   </style>
 </head>
 <body>
-  Features
-  Team
-  Sign In
+  <header >
+    <div class="logo-left">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <nav class="nav-right">
+    <ul>
+      <il>Features</il>
+      <il>Team</il>
+      <il>Sign In</il>
+  </ul>
+  </nav>
 
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
-
-  Get Started
-
-  Access your files, anywhere
+  <div class="img-box">
+      <img src="images/illustration-intro.png" alt="">
+  </div>
+ 
+</header>
+<h1>All your files in one secure location, accessible anywhere.</h1>
+  <p>Fylo stores all your most important files in one secure location. Access them wherever 
+  you need, share and collaborate with friends family, and co-workers.</p>
+<button>Get Started</button>
+<div>
+  <div>
+  <p>
+    <img src="images/icon-access-anywhere.svg" alt="">
+  <h2>Access your files, anywhere</h2>
 
   The ability to use a smartphone, tablet, or computer to access your account means your 
   files follow you everywhere.
+</p>
+</div>
 
-  Security you can trust
+<div>
+<p>
+  <img src="images/icon-security.svg" alt="">
+ <h2>Security you can trust</h2> 
 
   2-factor authentication and user-controlled encryption are just a couple of the security 
   features we allow to help secure your files.
+</p>
+</div>
 
-  Real-time collaboration
-
+<div>
+<p>
+  <img src="images/icon-collaboration.svg" alt="">
+<h2>Real-time collaboration</h2>
+  
   Securely share files and folders with friends, family and colleagues for live collaboration. 
   No email attachments required.
+</p>
+</div>
 
-  Store any type of file
+<div>
+<p>
+  <img src="images/icon-any-file.svg" alt="">
+  <h2>Store any type of file</h2>
 
   Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
   file types to be securely stored and shared.
+</p>
+</div>
 
-  Stay productive, wherever you are
+</div>
 
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+<div>
+  <div>
+    <img src="images/illustration-stay-productive.png" alt="">
+  </div>
+  <h1>Stay productive, wherever you are</h1>
+
+  <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
   storage needs.
 
   Securely share files and folders with friends, family and colleagues for live collaboration. No email 
   attachments required.
+</p>
+  <a href="#"> how Fylo works</a>
+</div>
 
-  See how Fylo works
-
+<div>
+  <div>
+    <img src="images/bg-quotes.png" alt="">
+  </div>
   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
 
@@ -73,30 +114,63 @@
 
   Iva Boyd
   Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+</div>
+<div>
+  <h1>Get early access today</h1>
+<p>
+  It only takes a minute to sign up and our free starter<br> tier is extremely generous. If you have any 
   questions, our support team would be happy to help you.
+</p>
 
-  Get Started For Free
+<div>
+ <input type="search"> <button> Started For Free</button>
+</div>
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+</div> 
+
+ <footer>
+
+<div class="float-box1" >
+    <img src="images/icon-location.svg" alt="">
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit, 
+  sed do eiusmod tempor incididunt ut labore et 
   dolore magna aliqua
+</p>
+</div>
 
-  +1-543-123-4567
-  example@fylo.com
+<div class="float-box2">
+<ul>
+  <img src="images/icon-phone.svg" alt="">
+   <li>+1-543-123-4567</li>
+   <img src="images/icon-email.svg" alt="">
+   <li>example@fylo.com</li> 
+</ul>
+</div>
 
-  About Us
-  Jobs
-  Press
-  Blog
+<div class="float-box3" >
+<ul>
+  <li>About Us</li>
+  <li>Jobs</li>
+  <li>Press</li>
+  <li>Blog</li>
+  </ul>
+</div>
 
-  Contact Us
-  Terms
-  Privacy
+<div class="float-box4" >
+  <ul>
+    <li>Contact Us</li>
+    <li>Terms</li>
+    <li>Privacy</li>
+</ul>
 
-  <footer>
+<ul class="float-box5">
+  <li><img src="images/faccebook.png" alt=""></li>
+  <li><img src="images/twitter.png" alt=""></li>
+  <li><img src="images/instagram.png" alt=""></li>
+</ul>
+</div>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
