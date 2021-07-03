@@ -1,0 +1,26 @@
+*{
+      background-color:#181f2a;
+      color: white;
+    }
+.nav-right {
+    text-align: right;
+    padding-top: -10px;
+}
+
+.nav-right ul > li{
+    padding: 60px;
+    
+}
+
+.nav-right img{
+    right: 50%;
+}
+
+div.img-box img{
+    padding-right: 50%;
+}
+
+.float-box1,.float-box2,.float-box3 .float-box4  {
+    width: 179px;
+    float: right;
+{
